@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "formation-federated-learning"
+version = "0.1.0"
+description = ""
+authors = ["Arkhn Team <hello@arkhn.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+seaborn = "^0.11.2"
+matplotlib = "^3.4.3"
+syft = "0.5.0"
+jupyter = "^1.0.0"
+torchmetrics = "0.5.0"
+black = "^21.9b0"
+isort = "^5.9.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
